@@ -1,0 +1,13 @@
+
+    problems:
+      - id: task2
+        data_dir: ~/problems/task2/data_dir/
+        type: QUBO
+        objective:
+            to: min
+            filenames: task2.pkl
+    simcim:
+      opts:
+        num_runs: 10
+        num_steps: 1000
+    
